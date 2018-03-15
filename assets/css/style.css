@@ -125,8 +125,6 @@ p
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
-    /*    border-bottom: 4px solid #f9c30d;*/
-
 }
 
 .header-overlay
@@ -169,10 +167,7 @@ p
     padding-top: 30px;
 }
 
-.choose-us-title i
-{
-    font-size: 20px;
-}
+
 
 .choose-us-title h2
 {
@@ -191,7 +186,7 @@ p
     left: 0;
     width: 70px;
     height: 1px;
-    background-color: #129CF3;
+    background-color: #f9c30d;
 }
 
 .choose-us-title p
@@ -201,9 +196,8 @@ p
     line-height: 24px;
 }
 
-.photo-grande-salle
+.photo-salles
 {
-    background-image: url('../images/grande-salle.jpg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -211,20 +205,30 @@ p
     -o-background-size: cover;
     -webkit-background-size: cover;
     width: 100%;
-    background: cover;
+    background: cover; 
+    box-shadow: 4px 4px 15px black;
+}
+
+.photo-grande-salle
+{
+    background-image: url('../images/grande-salle.jpg');
 }
 
 .photo-petite-salle
 {
     background-image: url('../images/petite-salle.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    width: 100%;
-    background: cover;
+}
+
+.photo-salles h5
+{
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.photo-salles i
+{
+    font-size: 40px;
 }
 
 .description-salle
