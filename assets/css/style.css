@@ -25,7 +25,8 @@ p
 .navbar-default
 {
     background-color: transparent;
-    border-color: #444;
+    border: none;
+    /*    border-color: #444;*/
     z-index: 110;
     transition: all 1s;
     -o-transition: all 1s;
@@ -46,7 +47,7 @@ p
 
 .navbar-default .navbar-nav > li > a:hover
 {
-    color: #129CF3;
+    color: #f9c30d;
 }
 
 .navbar-default .navbar-nav > li > a:focus
@@ -56,7 +57,8 @@ p
 
 .navbar-brand
 {
-    padding: 9px 15px;
+    padding: 9px 10px;
+    margin-top: -20px;
 }
 
 .navbar-brand img
@@ -72,7 +74,7 @@ p
 .navbar-default .navbar-nav > .active>a:focus
 {
     background-color: transparent;
-    color: #129CF3;
+    color: #f9c30d;
 }
 
 /* ========= HEADER ========= */
@@ -97,21 +99,25 @@ p
 
 .logo
 {
-    padding: 50px 0;
-    width: auto;
-}
-
-.navbar-brand
-{
-    margin-top: -20px;
+    padding: 50px 0; 
 }
 
 .header h2
 {
     text-align: center;
     color: #fff;
-    text-shadow: 3px 3px black;
+    text-shadow: 5px 5px 4px black;
     font-family: 'Rochester', serif;
     margin-bottom: 30px;
     
+}
+
+
+/* ========= ABOUT ========= */
+
+#about
+{
+    min-height: 600px;
+    /*    background-color: #1a1919;*/
+    background-color: #fff;
 }
