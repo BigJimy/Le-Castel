@@ -17,7 +17,43 @@ p
 
 /* ========= GENERIC CSS ========= */
 
+.section-title
+{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
 
+.section-title h2
+{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.section-title h2:after
+{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #f9c30d;
+    margin-left: -30px;
+}
+
+.section-title p
+{
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin: 45px;
+}
 
 
 /* ========= NAVIGATION ========= */
@@ -38,7 +74,7 @@ p
 .navbar-default .navbar-nav > li > a
 {
     color: #b5b5b5;
-    font-family: "Raleway", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     transition: all 1s;
     -o-transition: all 1s;
     -moz-transition: all 1s;
@@ -89,6 +125,7 @@ p
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
+    /*    border-bottom: 4px solid #f9c30d;*/
 
 }
 
@@ -121,3 +158,51 @@ p
     /*    background-color: #1a1919;*/
     background-color: #fff;
 }
+
+.choose-us-title
+{
+    padding-bottom: 50px;
+}
+
+.choose-us-title img
+{
+    padding-top: 50px;
+}
+
+.choose-us-title h2
+{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+
+.choose-us-title h2:after
+{
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    background-color: #129CF3;
+}
+
+.choose-us-title p
+{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
