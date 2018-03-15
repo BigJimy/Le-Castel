@@ -36,8 +36,8 @@ p
 
 .header-overlay
 {
-    background-color: rgba(31, 31, 31, .75);
-    height: 600px;
+/*    background-color: rgba(31, 31, 31, .75);*/
+    height: 500px;
 }
 
 .logo
