@@ -63,13 +63,12 @@ p
     background-color: rgba( 0, 0, 0, 0.9);
     height: 60px;
     border: none;
-    /*    border-color: #444;*/
     z-index: 110;
     transition: all 1s;
     -o-transition: all 1s;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
-
+    margin-top: -100px;
 }
 
 .navbar-default .navbar-nav > li > a
@@ -95,8 +94,7 @@ p
 
 .navbar-default .navbar-collapse
 {
-    color: #f9c30d;
-    background-color: rgba( 0, 0, 0, 0.9);
+    border: none;
 }
 
 .navbar-brand
@@ -157,11 +155,10 @@ p
 
 /* ========= ABOUT ========= */
 
-#about
+#ABOUT
 {
     min-height: 600px;
-    /*    background-color: #1a1919;*/
-    background-color: #fff;
+    background-color: white;
 }
 
 .choose-us-title
@@ -173,8 +170,6 @@ p
 {
     padding-top: 30px;
 }
-
-
 
 .choose-us-title h2
 {
@@ -248,8 +243,58 @@ p
     min-height: 300px;
 }
 
+.info-salles
+{
+    padding: 100px 0 50px 50px;
+}
 
+.info-salles p
+{
+    font-size: 18px;
+}
 
+/* ========= OPEN HOURS ========= */
+
+#OPEN-HOURS
+{
+    background-image: url("../images/openhours-background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+}
+
+.openhours-overlay
+{
+    background-color: rgba(31, 31, 31, .8);
+}
+
+#OPEN-HOURS h3
+{
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-shadow: 5px 5px 4px black;
+}
+
+#OPEN-HOURS h6
+{
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-shadow: 5px 5px 4px black;
+    margin-top: 0;
+}
+
+#OPEN-HOURS p
+{
+    color: #f9c30d;
+    font-size: 25px;
+    text-shadow: 5px 5px 4px black;
+    font-family: 'Rochester', serif;
+}
 
 
 
