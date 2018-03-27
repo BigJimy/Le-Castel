@@ -60,7 +60,8 @@ p
 
 .navbar-default
 {
-    background-color: transparent;
+    background-color: rgba( 0, 0, 0, 0.9);
+    height: 60px;
     border: none;
     /*    border-color: #444;*/
     z-index: 110;
@@ -84,11 +85,18 @@ p
 .navbar-default .navbar-nav > li > a:hover
 {
     color: #f9c30d;
+    font-weight: 600;
 }
 
 .navbar-default .navbar-nav > li > a:focus
 {
-    color: #b5b5b5;
+    color: #f9c30d;
+}
+
+.navbar-default .navbar-collapse
+{
+    color: #f9c30d;
+    background-color: rgba( 0, 0, 0, 0.9);
 }
 
 .navbar-brand
@@ -134,7 +142,7 @@ p
 
 .logo
 {
-    padding: 50px 0; 
+    padding: 80px 0 30px 0; 
 }
 
 .header h2
@@ -143,8 +151,7 @@ p
     color: #fff;
     text-shadow: 5px 5px 4px black;
     font-family: 'Rochester', serif;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;  
 }
 
 
