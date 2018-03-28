@@ -233,10 +233,15 @@ p
     font-size: 40px;
 }
 
+.salle-overlay
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .description-salle
 {
     background-color: rgba(0, 0, 0, 0.75);
-    width: 30%;
+    width: 20%;
     margin-top: 30px;
     padding: 10px 10px 30px 10px;
     color: #fff;
@@ -268,6 +273,17 @@ p
     text-align: center;
 }
 
+#OPEN-HOURS .section-title
+{
+    padding-top: 40px !important;
+    padding-bottom: 30px;
+}
+
+#OPEN-HOURS .section-title h2
+{
+    color: white;
+}
+
 .openhours-overlay
 {
     background-color: rgba(31, 31, 31, .8);
@@ -296,10 +312,61 @@ p
     font-family: 'Rochester', serif;
 }
 
+/* ========= FIND US ========= */
 
+.map
+{
+    padding: 30px;
+}
 
+.address
+{
+    padding: 40px;
+}
 
+.address h4
+{
+    position: relative;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
 
+.address h4:after
+{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0%;
+    width: 60px;
+    height: 2px;
+    background-color: #f9c30d;
+}
 
+.address ul
+{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 2em;
+}
 
+.address p
+{
+    position: relative;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
 
+.address p:after
+{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0%;
+    width: 60px;
+    height: 2px;
+    background-color: #f9c30d;
+}
+
+/* ========= FOOTER ========= */
