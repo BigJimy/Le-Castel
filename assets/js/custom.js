@@ -29,7 +29,7 @@ $(document).ready(function(){
     $(window).scroll(function() {
         'use strict'; 
         
-        if($(window).scrollTop() < 80 ) {
+        if($(window).scrollTop() < 10 ) {
             
             $('.navbar').css({
                 'margin-top': '-100px',
