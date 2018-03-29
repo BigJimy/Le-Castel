@@ -10,13 +10,20 @@
 
 /* Small Devices And Tablets */
 @media only screen and (max-width: 768px) {
+    .column-card
+    {
+        padding: 10px;
+    }
     
+     #BAR-MENU .card-frame:before
+    {
+        display: none;
+    }   
     
 }
 
 /* Medium Devices, Desktop */
 @media only screen and (min-width: 992px) {
-    
     
     
 }

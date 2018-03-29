@@ -436,6 +436,81 @@ p
     display: inline-block;
     float: right;
 }
+
+
+/* ========= RENT ========= */
+
+.rent
+{
+    background-image: url("../images/vue-ensemble-castel.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.rent-overlay
+{
+    background-color: rgba(31, 31, 31, .5);
+    min-height: 300px;
+}
+
+.rent-container img
+{
+    margin-top: -60px;
+}
+
+.rent-frame {
+    position: relative;
+    background-color: #f9c30d;
+    box-shadow: 5px 8px #333;
+    padding: 5px;
+}
+
+.location-salle {
+    margin: 20px;
+    padding: 10px;
+}
+
+.rent-description {
+    padding: 30px;
+}
+
+.rent-description ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.list-right {
+    text-align: right;
+}
+.rent-frame h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.rent-frame h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.rent-btn {
+    width: 200px;
+    background-color: #333;
+    padding: 0px;
+    margin: 0 auto;
+    transform: rotate(-8deg);
+}
+.rent-btn h2 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 5px;
+}
 /* ========= FOOTER ========= */
 
 footer
